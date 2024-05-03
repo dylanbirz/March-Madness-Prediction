@@ -28,7 +28,7 @@ validation_data$prediction_correct <- ifelse(validation_data$predicted_winner==v
 accuracy <- sum(validation_data$prediction_correct == "Correct") / nrow(validation_data)
 cat("Accuracy:", accuracy, "\n")
 
-
+#formatting for excel sheet
 export_data <- data.frame(
   Team_1 = validation_data$Team_A,
   Team_0 = validation_data$Team_B,
@@ -36,17 +36,31 @@ export_data <- data.frame(
   Predicted_Winner = validation_data$predicted_winner,
   Prediction_Correctness = validation_data$prediction_correct
 )
+
+#blank row
+export_data <- rbind(export_data, data.frame(Team_1 = "",
+      Team_0 = "", Actual_Winner = "", Predicted_Winner = "", 
+      Prediction_Correctness = ""))
+
+
 #don't want accuracy repeating every row
-accuracy_df <- data.frame(Accuracy = accuracy)
+accuracy_df <- data.frame(
+  Metric = "", Value = "",
+  Metric = "Accuracy", Value = accuracy)
 
 print(export_data)
 print(accuracy_df)
 
-write.csv(export_data, file = "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv")
+#write to file
+write.csv(export_data, file = "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv",append = TRUE)
+write.table(accuracy_df, file = "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv", 
+              append = TRUE, sep = ",", col.names = !file.exists("/Users/dylanbirzon/Desktop/capstone/model_predictions.csv"))
+
+
 
 #next steps is to try to have it construct the whole tourney based on the previous round winner predictions, if possible
 #can create a simple function call to predict the winner by only entering the four values
-#then can manually construct my own subseuquent rounds if coding it is too difficult
+#then can manually construct my own subsequent rounds if coding it is too difficult
 
 
 
