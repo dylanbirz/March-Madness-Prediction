@@ -10,7 +10,7 @@ The bracket I created using the trapezoid alone is also pasted in the PowerPoint
 
 The bracket in the slide is from my interpretation of matchups. I knew that the Kansas guard was out for their game against Gonzaga, but I wanted to stick true to the model for the time to show how important it is to not blindly tail the model.
 
-Now the reason I ended up writing code for this was to get a different perspective and have the computer crunch the numbers for me to identify patterns to help predict upsets - especially this past year with Oakland's win over Kentucky. My data only stretched back to the 2011 tournament so the computer had around 12 years or so of data to be trained on (excluding 2020 because of the Pandemic canceling the tournament).
+Now the reason I ended up writing code for this was to get a different perspective and have the computer crunch the numbers for me to identify patterns to help predict upsets - especially this past year with Oakland's win over Kentucky. My data only stretched back to the 2011 tournament so the computer had around 12 years or so of data to be trained on (excluding 2020 because of the Pandemic canceling the tournament). Data was sourced from SportsReference
 
 Also, many other factors need to be applied to get a more accurate model, but there can be cause for concern of overfitting. As stated before, injuries can skew the results so it's important to analyze the predictions under a microscope to see if coach and player experience are factors, as well.
 
