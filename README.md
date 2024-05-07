@@ -29,7 +29,7 @@ The reason why these two are used in conjunction is because teams that limit the
 
 Typically teams that play at average possession, tend to fare better than slow teams or fast teams. Around 65-70 is the average, hence the Y-axis being at 67. Teams below this are slow, and teams above are fast. Average possession teams tend to fare better because this shows that they are more adaptable in game speed. They can speed up or slow down their possessions depending on their opponent. As long as they're still efficient at scoring and getting stops, they will win more games. Alabama and Arizona tend to play faster games as they rely on the 3-ball more often than other teams. They rely on volume -> more shot attempts, more threes made. If a team like Clemson can slow the game down, which we saw this past year with Clemson and Arizona, they can force the fast teams to play slow and not get as many shots up as they're used to; leading to lower scoring opportunities, less points, and potential loses
 
-On the other hand, Virginia is one of the slower teams. If they can't control the game speed and it's too fast for them to keep up, they're going to lose 9 times out of 10.
+On the other hand, Virginia is one of the slower teams. If they can't control the game speed and it's too fast for them to keep up, they're going to lose 9 times out of 10. The opposite is true. If Virginia slows down the game against a fast team, that fast team will look like it just hit a brick wall and will fail to win the game.
 
 These matchups tend to be the hardest to predict because you don't know who will be able to control the pace, hence why, the model leans on the average possession teams. 
 
