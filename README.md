@@ -14,7 +14,7 @@ Now the reason I ended up writing code for this was to get a different perspecti
 
 Also, many other factors need to be applied to get a more accurate model, but there can be cause for concern of overfitting. As stated before, injuries can skew the results so it's important to analyze the predictions under a microscope to see if coach and player experience are factors, as well.
 
-The model predicted this past tournament with a 71.4% accuracy rating which is better than my accuracy rating of ~61%.
+The model had an accuracy rating of 71.4% compared to my accuracy rating of ~61%. However, my rating is associated with applying it to the tournament, where the model accuracy is simply analyzing the winner purely based on the matchup. There is no application of the model to the tournament. Other factors will need to be included to get a better idea of the tournament predictions. 
 
 
 **Predictors**
