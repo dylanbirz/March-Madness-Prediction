@@ -1,6 +1,6 @@
 #imported data sheet manually
 model_data <-
-  read.csv("/Users/dylanbirzon/Desktop/capstone/model_data.csv",
+  read.csv("/replace with your file path",
            header = TRUE)
 #View(model_data)
 
@@ -75,14 +75,14 @@ print(export_data)
 print(accuracy_df)
 
 #write to file
-write.csv(export_data, file = "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv", append = TRUE)
+write.csv(export_data, file = "/replace with your file path", append = TRUE)
 write.table(
   accuracy_df,
-  file = "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv",
+  file = "/replace with your file path",
   append = TRUE,
   sep = ",",
   col.names = !file.exists(
-    "/Users/dylanbirzon/Desktop/capstone/model_predictions.csv"
+    "/replace with your file path"
   )
 )
 
