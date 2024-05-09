@@ -133,7 +133,7 @@ predict_winner_user_input(model)
 
 
 
-# #playing with algo construction
+# #playing with algo construction with ChatGPT to try to construct the tournament, but this is hard lol
 # #work in progress
 # # Define the predict_winner function
 # predict_winner <- function(team_A, team_B, validation_data, model) {
