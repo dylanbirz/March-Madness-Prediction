@@ -40,7 +40,7 @@ These variables have to be analyzed together because a team can be very efficien
 **Model in R**
 The bracket will need to be constructed manually as the code can be complex to take the winner of the previous round and apply it moving forward. The program can analyze the winners for each round, but it will require human interaction to prepare the next rounds to feed it back in for analysis just because all 63 game matchups aren't known if you're using this for future tournaments. They are known because this is being trained on past events, but to apply it moving forward, it will have to be on a round-by-round basis depending on which games the model/person picks.
 
-You can call the function **predict_winner_user_input(model)** and follow the prompts to enter the values for both teams. The model will then spit on it's predicted winner. If this doesn't work, you may have to call the **source()** function to tell the model where the script exists on your computer. It will be source("file path")
+You can call the function **predict_winner_user_input(model)** and follow the prompts to enter the values for both teams. The model will then spit on it's predicted winner. If this doesn't work, you may have to call the **source()** function to tell the model where the script exists on your computer. It will be source("file path"). The model uses the file "model_data.csv". The adjusted Tourney Tableau file uses the "adjusted_all" Excel file, and the BigEast Tableau file uses the "bigeastncaabasketball" Excel file.
 
 
 
