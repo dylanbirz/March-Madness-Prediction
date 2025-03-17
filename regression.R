@@ -8,8 +8,8 @@ model_data <-
 
 
 #split data using subset function
-train_data <- subset(model_data, year < 2024 & year != 2020)
-validation_data <- subset(model_data, year == 2024)
+train_data <- subset(model_data, year < 2025 & year != 2020)
+validation_data <- subset(model_data, year == 2025)
 
 #set up training model
 #winner a = 1
