@@ -1,7 +1,7 @@
 #imported data sheet manually
 #I wrote this on MacOS, so functions (especially reading excel) may look different, but I tried to use universal functions
 model_data <-
-  read.csv("/replace with your file path",
+  read.csv("model_data.csv",
            header = TRUE)
 #View(model_data)
 
