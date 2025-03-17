@@ -1,7 +1,7 @@
 #imported data sheet manually
 #I wrote this on MacOS, so functions (especially reading excel) may look different, but I tried to use universal functions
 model_data <-
-  read.csv("model_data.csv",
+  read.csv("https://raw.githubusercontent.com/dylanbirz/March-Madness-Prediction/refs/heads/main/model_data.csv",
            header = TRUE)
 #View(model_data)
 
